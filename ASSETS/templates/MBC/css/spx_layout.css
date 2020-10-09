@@ -35,7 +35,7 @@ Changes:
 
 body, html {
   margin: 0px;
-  background-color: rgba(255,255,255,0);
+  background-color: transparent !important;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
   padding: 0;
