@@ -1,6 +1,6 @@
 'use strict';
 
-
+import "@lottiefiles/lottie-player";
 const _graphic = (function() {
 
     (function() {

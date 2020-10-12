@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/spx_fonts.css" />
 		<link rel="stylesheet" type="text/css" href="customize.css" />
 	
-		<script>
+		<!-- <script>
 	
 			function runAnimationIN() {
 				let logoPath="";
@@ -48,7 +48,7 @@
 				gsap.set("#TG",    { delay: dur - 0.0, opacity: 0 });
 				gsap.fromTo("#logo", { scale:  1 }, { delay: 0.0, duration: dur + 0.1, scale     : 0,   ease: "Power4.easeIn" });
 			}
-		</script>
+		</script> -->
 	
 		<style>
 	
@@ -82,34 +82,17 @@
 				"description": "Top left with logo",
 				"playserver": "OVERLAY",
 				"playchannel": "1",
-				"playlayer": "7",
-				"webplayout": "7",
+				"playlayer": "2",
+				"webplayout": "2",
 				"out": "manual",
 				"uicolor": "7",
 				"DataFields": [
 					{
 						"field" : "f0",
-						"ftype": "dropdown",
+						"ftype": "text",
 						"title": "logo",
-						"value": "logo-text",
-						"items": [
-							{
-								"text": "No logo",
-								"value": "0"
-							},
-							{
-								"text": "Logo with text",
-								"value": "logo-text"
-							},
-							{
-								"text": "Logo with white text",
-								"value": "logo-wht-text"
-							},
-							{
-								"text": "Logo without text",
-								"value": "logo-no-text"
-							}
-						]
+						"value": "logo-text"
+						
 					}
 				]
 			};
@@ -120,11 +103,21 @@
 	<body>
 		<div class="SPXWindow SPX_AUTOSIZE" data-spx-remember="Use either SPX_AUTOSIZE or SPX_FIXSIZE">
 			<div id="TG" class="tgpos region SKEW LEFTELEMENTS">
-				<div id="logo" style="display: inline-block;" class="logo fleft">
-					<img id="lSpace" src=""/>
+				<div>
+					<!-- <img id="lSpace" src=""/> -->
+
 				</div>
 			</div>
-			<div style="display:none;"  id="f0"></div>
+			<div id="f0">					
+				<lottie-player
+				autoplay
+				controls
+				loop
+				mode="normal"
+				src="ASSETS/templates/MBC/lottie/OfferingMessageTitle.json"
+				style="width: 100%"
+			>
+			</lottie-player></div>
 		</div data-info="SPXWindow ends">
 	
 	</body>
