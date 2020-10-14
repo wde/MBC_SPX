@@ -53,32 +53,10 @@
 	
 		<style>
 	
-			.tgpos{
-				position: absolute;
-				transform-origin: top left;
-				display:inline-block;
-				left: 1.2vw;
-				top: 2%;
-				z-index: 10;
-				opacity:0;
-			}
-	
-			.logo{
-				position: relative;
-				transform-origin: 25% 50%;
-				background-color: transparent;
-				padding: 0.9rem;
-				margin:0px 0px;
-			}
-
-			#lSpace{
-				width:20rem;
-				height:auto;
-			}
 	
 		</style>
 	
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			window.SPXGCTemplateDefinition = {
 				"description": "Top left with logo",
 				"playserver": "OVERLAY",
@@ -97,28 +75,21 @@
 					}
 				]
 			};
-		</script>
+		</script> -->
 	
 	</head>
 	
 	<body>
 		<div class="SPXWindow SPX_AUTOSIZE" data-spx-remember="Use either SPX_AUTOSIZE or SPX_FIXSIZE">
-			<div id="TG" class="tgpos region SKEW LEFTELEMENTS">
-				<div>
-					<!-- <img id="lSpace" src=""/> -->
-
-				</div>
-			</div>
 			<div id="f0">					
 				<lottie-player
-				autoplay
-				controls
-				loop
-				mode="normal"
-				src="lottie/OfferingMessageTitle.json"
-				style="width: 100%"
-			>
-			</lottie-player></div>
+					autoplay
+					mode="normal"
+					src="lottie/OfferingMessageTitle.json"
+					style="width: 100%"
+				>
+				</lottie-player>
+			</div>
 		</div data-info="SPXWindow ends">
 	
 	</body>
