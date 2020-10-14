@@ -20,8 +20,13 @@ var animationData = {"v":"5.5.7","meta":{"g":"LottieFiles AE 0.1.20","a":"Sean",
                 "ftype": "text",
                 "title": "Main Title",
                 "value": "Menai Baptist Church"
-                
-            }
+             },
+             {
+                "field" : "f0",
+                "ftype": "text",
+                "title": "Sub Title",
+                "value": "News"
+             }
         ]
     };
 
