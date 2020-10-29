@@ -1,0 +1,89 @@
+{
+  "warning": "Modifications done in the GC will overwrite this file.",
+  "smartpx": "(c) 2020 Tuomo Kulomaa <tuomo@smartpx.fi>",
+  "updated": "2020-10-20T02:11:40.180Z",
+  "templates": [
+    {
+      "description": "Ticker",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "3",
+      "webplayout": "3",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Headline",
+          "value": "LATER IN THE SHOW"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Content",
+          "value": "We will figure out how to update this manual ticker text"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_TICKER_MANUAL.html",
+      "itemID": "1602722139472"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "hidden",
+          "title": "Google DocumentID and tab names",
+          "value": "1scpoPiIc7-Vi_BWW4KFndowM_4AD7isMZKIw1_fP7_0, NEWS, TECHNOLOGY, BUSINESS"
+        },
+        {
+          "field": "info",
+          "ftype": "caption",
+          "title": "",
+          "value": "Ticker with Google Sheet as data source"
+        }
+      ],
+      "relpath": "smartpx/Template_Pack_1/SPX1_TICKER_SHEET.html",
+      "description": "Google Sheet Ticker",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "4",
+      "dataformat": "xml",
+      "webplayout": "4",
+      "out": "manual",
+      "uicolor": "7",
+      "itemID": "1602722363612",
+      "onair": "false"
+    },
+    {
+      "defversion": "1",
+      "description": "Headline, 2 phases",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "10",
+      "webplayout": "10",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Headline",
+          "value": "Now click Continue"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Subhead",
+          "value": "This is the second phase"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_HEADLINE_2_STEPS.html",
+      "itemID": "1602726332525"
+    }
+  ]
+}

@@ -27,7 +27,7 @@
 				else
 					{
 						// use logo
-						// console.log('Setting logo to ' + logoPath);
+						console.log('Setting logo to ' + logoPath);
 						document.getElementById('lSpace').src = logoPath;
 						logoDIV.style.display='inline-block';
 					}
@@ -36,11 +36,6 @@
 				gsap.set("#TG", { opacity: 1 });
 				gsap.fromTo("#logo", { scale:  0 }, { delay: 0.0, duration: dur - 0.0, scale    : 1, ease: "Power3.easeOut" });
 				
-				if (IsLoop){
-					console.log('%c SPX LOOP MODE! Parameter loop=true. Animation will forcefully AUTO-LOOP. ', 'background: #222; color: #bada55');
-					setTimeout(function(){ runAnimationOUT(); }, 3000);
-					setTimeout(function(){ runAnimationIN(true); }, 5000);
-				}
 			}
 	
 			function runAnimationOUT() {
@@ -58,7 +53,7 @@
 				display:inline-block;
 				left: 1.2vw;
 				top: 2%;
-				z-index: 10;
+				z-index: 0;
 				opacity:0;
 			}
 	

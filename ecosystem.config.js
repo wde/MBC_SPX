@@ -1,14 +1,14 @@
 module.exports = {
   apps : [
     {
-    'name': 'GC1',
+    'name': 'LIVE',
     'script': 'server.js',
     'args': 'config.json'
     },
     {
-      'name': 'GC2',
+      'name': 'DEV',
       'script': 'server.js',
-      'args': 'config2.json'
+      'args': 'config5001.json'
       }
   ]
 };

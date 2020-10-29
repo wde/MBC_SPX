@@ -1,0 +1,154 @@
+{
+  "warning": "Modifications done in the GC will overwrite this file.",
+  "smartpx": "(c) 2020 Tuomo Kulomaa <tuomo@smartpx.fi>",
+  "updated": "2020-10-14T21:38:59.730Z",
+  "templates": [
+    {
+      "description": "Basic template",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "10",
+      "webplayout": "10",
+      "out": "none",
+      "uicolor": "2",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Heading One",
+          "value": "Menai Baptist Church"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Heading Two",
+          "value": "Important Title"
+        }
+      ],
+      "onair": "true",
+      "dataformat": "xml",
+      "relpath": "MBC/MBC_Title_Interstitial.html",
+      "itemID": "1602710145109"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Mr McGillicuddy"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "6",
+      "dataformat": "xml",
+      "webplayout": "6",
+      "out": "6000",
+      "uicolor": "7",
+      "itemID": "1602710423975",
+      "onair": "false"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Mr McGillicuddy"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "Scottish Gent"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name_Title.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "5",
+      "dataformat": "xml",
+      "webplayout": "5",
+      "out": "6000",
+      "uicolor": "7",
+      "itemID": "1602710447558",
+      "onair": "false"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Mr McGillicuddy"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "Scottish Gent"
+        },
+        {
+          "field": "f2",
+          "ftype": "textfield",
+          "title": "Comment or Tag",
+          "value": "and bit of a git"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name_Title_Tag.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "4",
+      "dataformat": "xml",
+      "webplayout": "4",
+      "out": "6000",
+      "uicolor": "7",
+      "itemID": "1602710452115",
+      "onair": "false"
+    },
+    {
+      "description": "Top left with logo",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "7",
+      "webplayout": "7",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "dropdown",
+          "title": "logo",
+          "value": "logo-wht-text",
+          "items": [
+            {
+              "text": "No logo",
+              "value": "0"
+            },
+            {
+              "text": "Logo with text",
+              "value": "logo-text"
+            },
+            {
+              "text": "Logo with white text",
+              "value": "logo-wht-text"
+            },
+            {
+              "text": "Logo without text",
+              "value": "logo-no-text"
+            }
+          ]
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "MBC/MBC_TopLeft_Logo.html",
+      "itemID": "1602710126889"
+    }
+  ]
+}

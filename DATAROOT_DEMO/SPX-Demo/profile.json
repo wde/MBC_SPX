@@ -1,0 +1,230 @@
+{
+  "templates": [
+    {
+      "defversion": "1",
+      "description": "Bumper",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "18",
+      "webplayout": "18",
+      "out": "none",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "caption",
+          "title": "",
+          "value": "A simple color wipe"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_COLORBUMPER.html"
+    },
+    {
+      "defversion": "1",
+      "description": "Headline, 2 phases",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "10",
+      "webplayout": "10",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Headline",
+          "value": "Now click Continue"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Subhead",
+          "value": "This is the second phase"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_HEADLINE_2_STEPS.html"
+    },
+    {
+      "description": "Top left with icon",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "7",
+      "webplayout": "7",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Info text",
+          "value": "Headquarters"
+        },
+        {
+          "field": "f1",
+          "ftype": "dropdown",
+          "title": "Icon",
+          "value": "live",
+          "items": [
+            {
+              "text": "No icon",
+              "value": "0"
+            },
+            {
+              "text": "Telephone",
+              "value": "phone"
+            },
+            {
+              "text": "Live",
+              "value": "live"
+            }
+          ]
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_INFO_LEFT.html"
+    },
+    {
+      "description": "Top right",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "8",
+      "webplayout": "8",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Infotext top right",
+          "value": "👍 #hashtag"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_INFO_RIGHT.html"
+    },
+    {
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "5",
+      "webplayout": "5",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Angus MacGyver"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "handyman"
+        },
+        {
+          "field": "f2",
+          "ftype": "textfield",
+          "title": "Company or location",
+          "value": "Phoenix Foundation"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_NAME_LEFT.html"
+    },
+    {
+      "description": "Namestrap right",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "6",
+      "webplayout": "6",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Keyser Söze"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "mystic"
+        },
+        {
+          "field": "f2",
+          "ftype": "textfield",
+          "title": "Company or location",
+          "value": "New York"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_NAME_RIGHT.html"
+    },
+    {
+      "description": "Ticker",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "3",
+      "webplayout": "3",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Headline",
+          "value": "LATER IN THE SHOW"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Content",
+          "value": "We will figure out how to update this manual ticker text"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "smartpx/Template_Pack_1/SPX1_TICKER_MANUAL.html"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "hidden",
+          "title": "Google DocumentID and tab names",
+          "value": "1scpoPiIc7-Vi_BWW4KFndowM_4AD7isMZKIw1_fP7_0, NEWS, TECHNOLOGY, BUSINESS"
+        },
+        {
+          "field": "info",
+          "ftype": "caption",
+          "title": "",
+          "value": "Ticker with Google Sheet as data source"
+        }
+      ],
+      "relpath": "smartpx/Template_Pack_1/SPX1_TICKER_SHEET.html",
+      "description": "Google Sheet Ticker",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "4",
+      "dataformat": "xml",
+      "webplayout": "4",
+      "out": "manual",
+      "uicolor": "7"
+    }
+  ],
+  "warning": "Modifications done in the GC will overwrite this file.",
+  "smartpx": "(c) 2020 Tuomo Kulomaa <tuomo@smartpx.fi>",
+  "updated": "2020-10-15T00:36:46.850Z"
+}

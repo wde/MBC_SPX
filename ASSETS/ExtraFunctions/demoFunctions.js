@@ -111,7 +111,7 @@ function logoToggle(eventButton) {
     let colClass = eventButton.getAttribute('data-spx-color');
     let data = {};
     // ----------------- playout settings ------------------------------------------
-    data.relpath       = 'smartpx/demos/cornerlogo.html';    // template file
+    data.relpath       = 'MBC/MBC_TopLeft_Logo.html';    // template file
     data.playserver    = 'OVERLAY';                          // CCG server or '-'
     data.playchannel   = '1';                                // Channel
     data.playlayer     = '19';                               // Layer
@@ -169,5 +169,24 @@ function lottieBumber(){
     console.log('Response:',x);
 }
 
-
+function webPlayoutBkg(){
+    // UNDER CONSTRUCTION - Sean
+    //       {
+    //                     "field" : "f4",
+    //                     "ftype" : "dropdown",
+    //                     "title" : "Playout Background",
+    //                     "value" : "rgba(0,0,0,0)",
+    //                     "items" : [
+    //                         {
+    //                             "text" : "Transparent (default)",
+    //                             "value": "rgba(0,0,0,0)"
+    //                         },
+    //                         {
+    //                             "text" : "ChromaKey Green (#00b140)",
+    //                             "value": "rgba(0,177,64,1)"
+    //                         }
+    //                     ]
+    //                 }
+    // document.getElementById(id).style.property = new style
+}
 

@@ -1,0 +1,146 @@
+{
+  "templates": [
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Full Name"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "6",
+      "dataformat": "xml",
+      "webplayout": "6",
+      "out": "6000",
+      "uicolor": "7"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Full Name"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "Title"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name_Title.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "5",
+      "dataformat": "xml",
+      "webplayout": "5",
+      "out": "6000",
+      "uicolor": "7"
+    },
+    {
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Fullname",
+          "value": "Full Name"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Title",
+          "value": "Title"
+        },
+        {
+          "field": "f2",
+          "ftype": "textfield",
+          "title": "Comment or Tag",
+          "value": "Comment or Tagline"
+        }
+      ],
+      "relpath": "MBC/MBC_LT_Name_Title_Tag.html",
+      "description": "Namestrap left",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "4",
+      "dataformat": "xml",
+      "webplayout": "4",
+      "out": "6000",
+      "uicolor": "7"
+    },
+    {
+      "description": "Basic template",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "10",
+      "webplayout": "10",
+      "out": "none",
+      "uicolor": "2",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "textfield",
+          "title": "Heading One",
+          "value": "Hello world!"
+        },
+        {
+          "field": "f1",
+          "ftype": "textfield",
+          "title": "Heading Two",
+          "value": "Hello again"
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "MBC/MBC_Title_Interstitial.html"
+    },
+    {
+      "description": "Top left with logo",
+      "playserver": "OVERLAY",
+      "playchannel": "1",
+      "playlayer": "7",
+      "webplayout": "7",
+      "out": "manual",
+      "uicolor": "7",
+      "DataFields": [
+        {
+          "field": "f0",
+          "ftype": "dropdown",
+          "title": "logo",
+          "value": "logo-text",
+          "items": [
+            {
+              "text": "No logo",
+              "value": "0"
+            },
+            {
+              "text": "Logo with text",
+              "value": "logo-text"
+            },
+            {
+              "text": "Logo with white text",
+              "value": "logo-wht-text"
+            },
+            {
+              "text": "Logo without text",
+              "value": "logo-no-text"
+            }
+          ]
+        }
+      ],
+      "onair": "false",
+      "dataformat": "xml",
+      "relpath": "MBC/MBC_TopLeft_Logo.html"
+    }
+  ],
+  "warning": "Modifications done in the GC will overwrite this file.",
+  "smartpx": "(c) 2020 Tuomo Kulomaa <tuomo@smartpx.fi>",
+  "updated": "2020-10-14T21:17:57.128Z"
+}

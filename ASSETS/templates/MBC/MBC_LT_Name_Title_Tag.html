@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--
+
+    (C) 2020 tuomo@smartpx.fi (MIT License)
+    Demo template for SPX-GC. See SPXGCTemplateDefinition -object below for data field descriptions.
+
+    This demo template does not have linked properties so all layers remain in their positions and
+    do not "make space" for others.
+
+    Need custom templates?
+    Let me know 😀
+
+-->
+
+
 
 <head>
     <meta charset="utf-8" />
@@ -16,6 +30,8 @@
         function initValues(){
 
             gsap.set("#line1", { opacity: 0 });
+            gsap.set("#line2", { display:"block" });
+
             let DataVisibilityPairs = [
                 {
                     id:     'f0',
